@@ -156,7 +156,7 @@ header ul li {
 .box-comentario {
   display: flex;
   margin: 0 auto;
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   border-radius: 15px;
   padding: 1rem 2rem;
   width: 40%;
@@ -169,39 +169,40 @@ header ul li {
   width: 75px;
   margin-right: 1rem;
 }
-.comentario-content{
+.comentario-content {
   width: 80%;
 }
-.comentario{
+.comentario {
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
-.comentario-name{
+.comentario-name {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
   line-height: 2rem;
 }
-.comentario-job{
+.comentario-job {
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: bolder;
 }
 
-footer{
+footer {
   background: #000;
   color: #fff;
   padding: 5rem 0;
 }
 
-.content-footer{
+.content-footer {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
-.titulo-site{
+.titulo-site {
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
@@ -209,16 +210,162 @@ footer{
   margin-bottom: 1rem;
 }
 
-.subtitulo{
+.subtitulo,
+.descricao {
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
-.titulo-footer{
+.titulo-footer {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
   line-height: 2rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.icons-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.icons-footer div:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  header div {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  header ul li {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    padding: 0.5rem 0;
+    margin: 0.3rem;
+  }
+  .btn-login {
+    color: #fff;
+    background: #d6000d;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+    cursor: pointer;
+  }
+  .orcamento {
+    flex-direction: column;
+  }
+  .imagem-orcamento {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .content-orcamento p {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  .content-orcamento h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .content-orcamento button {
+    font-size: 1.125rem;
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+  .equipe {
+    margin-bottom: 5rem;
+  }
+
+  .lista-imagem {
+    flex-direction: column-reverse;
+    
+  }
+
+  .lista-imagem ul li {
+    font-size: 1.125rem;
+  }
+
+  .imagem-equipe {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .box-numero {
+    margin-left: 0rem;
+  }
+
+  .disposicao {
+    font-size: 1.12rem;
+    text-align: center;
+  }
+  .numero input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .numero button {
+    width: 105%;
+  }
+
+  .comentarios {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-bottom: 5rem;
+  }
+  .box-comentario {
+    width: 90%;
+    padding: 1rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .bola {
+    height: 50px;
+    width: 50px;
+  }
+  .comentario-content {
+    width: 70%;
+  }
+  .comentario {
+    font-size: 1rem;
+  }
+  .comentario-name {
+    font-size: 1.125rem;
+  }
+  .comentario-job {
+    font-size: 1rem;
+  }
+
+  .content-footer {
+    flex-direction: column;
+    align-items:stretch;
+  }
+  .titulo-site {
+    text-align: center;
+    align-self: center;
+  }
+  .subtitulo{
+    text-align: center;
+  }
+  .titulo-footer {
+    margin-top: 1rem;
+    padding: 0;
+  }
+  .icons-footer {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .icons-footer div{
+    margin-right: 1rem;
+  }
+
+
 }
