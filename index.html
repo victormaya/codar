@@ -5,98 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codar</title>
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="grid.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="">
-    <header class="container header">
-      <h1 class="title">Codar<span>.</span></h1>
-      <ul class="menu">
-        <li>Início</li>
-        <li>Serviços</li>
-        <li>Contato</li>
-        <li>Login</li>
-      </ul>
+  <body>
+    <header class="container">
+      <div>
+        <h1>Codar<span>.</span></h1>
+        <ul>
+          <li>Início</li>
+          <li>Serviços</li>
+          <li>Contato</li>
+          <li class="btn-login">Login</li>
+        </ul>
+      </div>
     </header>
 
-    <section class="container call-text">
-      <div class="imagem">
-        <img src="./assets/video_call.png" alt="" srcset="" />
-      </div>
-      <div>
-        <p class="desc-call">Alavanque seu negócio com um</p>
-        <h1 class="title-call">Website incrível</h1>
-        <a class="button-call">Solicitar orçamento</a>
-      </div>
-    </section>
-
-    <section class="container coding-text">
-      <ul>
-        <li>Domínio personalizado</li>
-        <li>Hospedagem</li>
-        <li>Site responsivo</li>
-        <li>Redes sociais</li>
-        <li>Chat online</li>
-        <li>Blog integrado</li>
-      </ul>
-      <div class="imagem-coding">
-        <img src="./assets/coding_.png" alt="" srcset="" />
-      </div>
-    </section>
-
     <section class="container">
-      <p class="celular-desc">Nossa equipe está à disposição!</p>
-      <div class="input-button">
-        <input type="number" placeholder="Celular" />
-        <p>Ligamos pra você</p>
+      <div class="orcamento">
+        <div class="imagem-orcamento">
+          <img src="./assets/video_call.png" alt="" srcset="" />
+        </div>
+        <div class="content-orcamento">
+          <p>Alavanque seu negócio com um</p>
+          <h1>Website incrível</h1>
+          <button>Solicitar orçamento</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container equipe">
+      <div class="lista-imagem">
+        <ul>
+          <li>Domínio personalizado</li>
+          <li>Hospedagem</li>
+          <li>Site responsivo</li>
+          <li>Redes sociais</li>
+          <li>Chat online</li>
+          <li>Blog integrado</li>
+        </ul>
+        <div class="imagem-equipe">
+          <img src="./assets/coding_.png" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="box-numero">
+        <p class="disposicao">Nossa equipe está à disposição!</p>
+        <div class="numero">
+          <input type="number" placeholder="Celular" />
+          <button>Ligamos pra você</button>
+        </div>
       </div>
     </section>
 
     <section class="container comentarios">
-      <div class="comentario">
-        <div class="bola-vermelha">
-          <img src="./assets/ball.png" alt="" srcset="">
-        </div>
-        <div>
-          <p class="text-comentario">
-            Já tive experiências com outras 4 empresas<br />da área e a Codar é sem sombra de dúvidas<br />superior em todos os aspectos.
+      <div class="box-comentario">
+        <div class="bola"></div>
+        <div class="comentario-content">
+          <p class="comentario">
+            Já tive experiências com outras 4 empresas da área e a Codar é sem
+            sombra de dúvidas superior em todos os aspectos.
           </p>
-          <p class="nome-comentario">Pedro Ferreira</p>
-          <p class="local-comentario">Construtora Minari</p>
+          <h2 class="comentario-name">Pedro Ferreira</h2>
+          <h3 class="comentario-job">Construtora Minari</h3>
         </div>
       </div>
-      <div class="comentario">
-        <div class="bola-vermelha">
-          <img src="./assets/ball.png" alt="" srcset="">
-        </div>
-        <div>
-          <p class="text-comentario">
-            Processos bem simples e criação de um<br />site exatamente como a minha escola<br />queria!
+      <div class="box-comentario">
+        <div class="bola"></div>
+        <div class="comentario-content">
+          <p class="comentario">
+            Processos bem simples e criação de um site exatamente como a minha
+            escola queria!
           </p>
-          <p class="nome-comentario">Maria Rita</p>
-          <p class="local-comentario">Escola Criança Feliz</p>
+          <h2 class="comentario-name">Maria Rita</h2>
+          <h3 class="comentario-job">Escola Criança Feliz</h3>
         </div>
       </div>
     </section>
 
-    <div class="rodape">
-      <footer class="container">
-        <div class="grid-12 titles">
-          <h2 class="grid-3 title-footer">Codar.</h2>
-          <h2 class="grid-3">Sobre</h2>
-          <h2 class="grid-3">Contato</h2>
-          <h2 class="grid-3">Redes sociais</h2> 
+    <footer>
+      <div class="container content-footer">
+        <div>
+          <h1 class="titulo-site">Codar.</h1>
+          <p class="subtitulo">Criamos websites incríveis</p>
         </div>
-        <div class="grid-12 descricoes">
-          <p class="grid-3">Criamos websites incríveis</p>
-          <p class="grid-3">Amamos criar soluções<br />e entregar sites incríveis</p>
-          <ul class="grid-3">
-            <li>123 Av. Manjar - Nárnia</p></li>
+        <div>
+          <h2 class="titulo-footer">Sobre</h2>
+          <h3>Amamos criar soluções<br />e entregar sites incríveis</h3>
+        </div>
+        <div>
+          <h2 class="titulo-footer">Contato</h2>
+          <ul>
+            <li>123 Av. Manjar - Nárnia</li>
             <li>+55 96 2321-3131</li>
             <li>contato@codar.com</li>
           </ul>
         </div>
-      </footer>
-    </div>
+        <div><h2 class="titulo-footer">Redes sociais</h2></div>
+      </div>
+    </footer>
   </body>
 </html>
